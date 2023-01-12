@@ -623,13 +623,11 @@ How does one go about using it?
 The testing is done using PostMan.
 
 
-Type | Email | Password
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
-Admin | abdosam@live.co.uk | asdasd123 
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
-Instructor | abdosam1@live.co.uk | asdasd123 
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
-Corporate Trainee | omar@gmail.com | asdasd123 
+| Type | Email | Password |
+| ------- | ------- | ------- |
+| Admin | abdosam@live.co.uk | asdasd123 |
+| Instructor | abdosam1@live.co.uk | asdasd123 
+| Corporate Trainee | omar@gmail.com | asdasd123 |
 
 to test for a trainee just sign up and create a new account
 
@@ -641,36 +639,18 @@ to test for a trainee just sign up and create a new account
 
 To run backend 
 ```bash
-cd server && nodemon src/start.ts
+cd server && npm run dev
 ```
 To run frontend
 ```bash
-cd client && npm start
+cd client && npm run start
 ```
 the backend server and client will be running on the specified ports on your env files.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## Contribution :muscle:
-
-- Abdelrahman Mohamed  
-- Abdallah Sameh
-- Omar Wael
-- Sami Ali
-- Ahmed Mohamed
 
 
-
-## Credits :copyright:
-
-- [Clean code](https://www.oreilly.com/library/view/clean-code-a/9780136083238/)
-- [RESTful Web API Patterns and Practices Cookbook](https://learning.oreilly.com/library/view/restful-web-api/9781098106737/)
-- [Designing Data Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/)
-- [Mongoose docs](https://mongoosejs.com/docs/)
-- [Express docs](https://expressjs.com/en/4x/api.html)
-- [ReactJs docs](https://reactjs.org/docs/getting-started.html)
-- [Redux docs](https://redux.js.org/api/api-reference)
-- [NodeJs docs](https://nodejs.org/en/docs/)
 -  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
