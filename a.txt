@@ -1,0 +1,104 @@
+ {
+    "title": "Introduction to Machine Learning5",
+    "description":
+      "Master Machine Learning Algorithms Using Python From Beginner to Super Advance Level including Mathematical Insights.",
+    "price": "59.99",
+    "author": "Mehdi Alinoori",
+    "rating": 4.5,
+    "numberOfRatings": 417,
+    "subject": "Computer Science",
+    "hours": "5.5",
+    "img": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2728&q=80"
+  }
+
+   {
+    "title": "Computer Graphics with Modern OpenGL and C++",
+    "description":
+      "Learn the theory and code behind modern OpenGL graphical applications so you can make games, simulations and more!",
+    "price": "39.99",
+    "rating": 4.5,
+    "numberOfRatings": 37,
+    "subject": "Computer Science",
+    "hours": "5.5",
+    "img": "https://images.unsplash.com/photo-1615525137689-198778541af6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3432&q=80"
+  }
+
+   {
+    "title": "NodeJS Tutorial and Projects Course",
+    "description":
+      "Learn Node.js by building real-world applications with Node JS, Express, MongoDB.",
+    "price": "39.99",
+    "rating": 4.8,
+    "numberOfRatings": 345,
+    "subject": "Computer Science",
+    "hours": "23.5",
+    "img": "https://images.unsplash.com/photo-1593720216276-0caa6452e004?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fGphdmFzY3JpcHR8ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60"
+  }
+
+   {
+    "title": "FullStack Web Development",
+    "description":
+      "Become a Full-Stack Web Developer with just ONE course. HTML, CSS, Javascript, Node, React, MongoDB, Web3 and DApps",
+    "price": "39.99",
+    "rating": 4.8,
+    "numberOfRatings": 345,
+    "subject": "Web Development",
+    "hours": "43.5",
+    "img": "https://cdn.pixabay.com/photo/2018/04/03/23/29/wordpress-3288414_1280.png"
+  }
+
+
+  # Advanced Computer Lab Project
+> This website is an online learning and teaching marketplace
+
+## Table of Contents
+* [General Info](#general-information)
+* [Technologies Used](#technologies-used)
+* [Screenshots](#screenshots)
+* [Usage](#usage)
+* [Project Status](#project-status)
+* [Room for Improvement](#room-for-improvement)
+
+
+## General Information
+
+
+## Technologies Used
+- React (tailwindCSS, react-router, formik, axios)
+- Node
+- Express (JWT, nodemailed, handelbars) 
+- MongoDB
+
+## Screenshots
+![Example screenshot](./img/screenshot.png)
+<!-- If you have screenshots you'd like to share, include them here. -->
+
+
+
+## Usage
+How does one go about using it?
+1) Download the project.
+2) Open a terminal tab in server and client folder then run
+
+`npm i`
+`npm run dev`
+
+## Login credentials for testing purposes
+Type | Email | Password
+--- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
+Admin | abdosam@live.co.uk | asdasd123 
+--- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
+Instructor | abdosam1@live.co.uk | asdasd123 
+--- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
+Corporate Trainee | omar@gmail.com | asdasd123 
+
+to test for a trainee just sign up and create a new account
+
+
+## Project Status
+Project is: _complete_
+
+## Room for Improvement
+- Add user's JWT in cookies to prevent XSS attacks
+- Use react query instead of axios and react-router 6.4 features
+- Use SSR for SEO

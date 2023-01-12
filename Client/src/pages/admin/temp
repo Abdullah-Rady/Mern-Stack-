@@ -1,0 +1,104 @@
+import React from 'react'
+
+const temp = () => {
+  return (
+    <div><div className={classNames.inputGroup}>
+    <label htmlFor="emailAddress" className="sr-only">
+      Email address
+    </label>
+    <input
+      id="emailAddress"
+      name="email"
+      type="email"
+      required
+      placeholder="Email address"
+      className={classNames.input}
+      onChange={handleChange}
+    />
+  </div>
+  {errors.email && touched.email && <div>errors.email</div>}
+  <div className={classNames.inputGroup}>
+    <label htmlFor="firstname" className="sr-only">
+      FirstName
+    </label>
+    <input
+      id="firstname"
+      name="first_name"
+      type="text"
+      required
+      placeholder="First name"
+      className={classNames.input}
+      onChange={handleChange}
+    />
+  </div>
+  <div className={classNames.inputGroup}>
+    <label htmlFor="lastname" className="sr-only">
+      LastName
+    </label>
+    <input
+      id="lastname"
+      name="last_name"
+      type="text"
+      required
+      placeholder="Last name"
+      className={classNames.input}
+      onChange={handleChange}
+    />
+  </div>
+  <div className={classNames.inputGroup}>
+    <label htmlFor="username" className="sr-only">
+      Username
+    </label>
+    <input
+      id="username"
+      name="username"
+      type="text"
+      required
+      placeholder="Username"
+      className={classNames.input}
+      onChange={handleChange}
+    />
+  </div>
+  <div className={classNames.inputGroup}>
+    <label htmlFor="password" className="sr-only">
+      Password
+    </label>
+    <input
+      id="password"
+      name="password"
+      type="password"
+      required
+      placeholder="Password"
+      className={classNames.input}
+      onChange={handleChange}
+    />
+  </div>
+  <div className={classNames.inputGroup}>
+    <label htmlFor="role" className=" mr-2">
+      Role:
+    </label>
+    <select
+      name="role"
+      id="role"
+      className="px-2 border rounded-md border-gray-300 focus:outline-none focus:border-indigo-500 focus:ring-indigo-500"
+      onChange={handleChange}
+    >
+      {/* <option value="" disabled selected>Role</option> */}
+      <option value="Admin">Admin</option>
+      <option value="Instructor">Instructor</option>
+      <option value="Corporate Trainee">Corporate Trainee</option>
+    </select>
+  </div>
+  <div>
+    <button
+      type="submit"
+      className={classNames.submitButton}
+      onClick={handleFormSubmit}
+    >
+      Submit
+    </button>
+  </div></div>
+  )
+}
+
+export default temp
